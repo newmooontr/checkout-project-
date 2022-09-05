@@ -26,6 +26,7 @@ main {
 
 main label {
   font-size: 1rem;
+  
 }
 
 
@@ -81,6 +82,9 @@ select {
 }
 .form-group label {
     font-size: small;
+    color: gray;
+   
+    
     
 }
 
@@ -92,6 +96,7 @@ select {
   border-radius: 5px;
   border: 1px solid gray;
   margin-bottom: 0.5rem;
+
     
     
 }
