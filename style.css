@@ -1,0 +1,220 @@
+@font-face {
+    font-family: 'Montserrat-Regular';
+    src: url('/fonts/Montserrat-Regular.ttf');
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  max-width: 1900px;
+}
+
+body{
+  cursor: pointer;
+}
+
+
+main {
+  font-family: Montserrat-Regular;
+  display: flex;
+  justify-content: space-around;
+  margin: 1rem 10rem;
+  
+}
+
+main label {
+  font-size: 1rem;
+}
+
+
+#title1 {
+  text-align: center;
+  font-size: 2.3rem;
+  margin: 1rem;
+}
+
+img {
+  width: 6rem;
+  height:7rem;
+  margin: 10px 20px;
+  border-radius: 8px;
+  
+}
+
+.box {
+  background-color: #f3f5f2; 
+  width: 350px;
+  margin-top: 35px;
+  border-radius: 15px;
+  padding:10px;
+  padding-right: 40px;
+  height: 25rem;
+ }
+
+h2 {
+  font-size: 18px;
+  font-family: Geneva;
+  color: black;
+  margin-bottom: 0.5rem;
+  margin-top: 4rem;
+}
+
+.form-inline {
+  display: flex;
+}
+
+select {
+  height: 1.9rem;
+  margin-top: 0.5rem;
+  color: gray;
+
+}
+
+
+.form-group{
+    position: relative;
+    
+    
+
+}
+.form-group label {
+    font-size: small;
+    
+}
+
+.form-group input, select{
+  margin-top: 0.5rem;
+  width: 100%;
+  height: 1.9rem;
+  padding-left: 3rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin-bottom: 0.5rem;
+    
+    
+}
+
+.form-group i{
+    position: absolute;
+    left: 22px;
+    bottom: 14px;
+    opacity: 0.5;
+}
+
+header{
+    font-family: Montserrat-Regular;
+}
+
+.checkbox{
+ margin-top: 1rem;
+}
+
+
+.checkbox label{
+    font-size: 12px;
+    
+}
+.checkbox input{
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.zip-code{
+  margin-left: 1rem;
+}
+
+.button button{
+  margin-top: 1rem;
+  width: 70px;
+  height: 40px;
+  border-radius: 10px;
+  margin-left: 375px;
+  background-color: coral;
+  color: white;
+  border: none;
+  
+}
+
+
+.box .bag-shoes{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  
+}
+
+.bag-shoes h2{
+  margin-top: 10px;
+  color: black;
+  opacity: 0.7;
+
+  
+}
+
+
+.plus{
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid gray;
+  width: 100px;
+  border-radius: 5px 5px;
+  padding: 5px;
+  align-items: center;
+  color: gray;font-size: small;
+
+  
+}
+
+.plus button{
+  background-color: lightgrey;
+  border: none;
+  border-radius: 5px ;
+  padding: 5px;
+
+  
+}
+
+.ship-total{
+  margin-top: 50px;
+  
+}
+
+
+.ship-total .ship{
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid gray;
+  color: gray;
+ 
+  
+}
+
+.p1{
+  margin-bottom: 15px;
+}
+
+.p2{
+  margin-bottom: 15px;
+  text-align: end;
+  
+}
+
+span{
+  color:orange;
+  
+}
+
+p{
+  margin-top: 4px;
+}
+
+.black{
+  color: black;
+  font-size: small;
+}
+
+.money{
+  margin-bottom: 20px;
+}
