@@ -162,7 +162,7 @@ header{
   border-radius: 5px 5px;
   padding: 5px;
   align-items: center;
-  color: gray;font-size: small;
+  color: gray;
 
   
 }
@@ -173,7 +173,10 @@ header{
   border-radius: 5px ;
   padding: 5px;
 
-  
+}
+
+.plus p{
+  font-size: small;
 }
 
 .ship-total{
